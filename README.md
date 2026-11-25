@@ -24,7 +24,7 @@ Requires Android 11 or later on a 64-bit ARM phone (arm64-v8a).
 ## Check the file before installing
 
 Each release lists the APK's SHA-256 checksum and the SHA-256 fingerprint of
-its signing certificate. The current release, 3.0.1 (build 24), is signed with
+its signing certificate. The current release, 3.0.2 (build 25), is signed with
 this certificate:
 
 ```text
@@ -48,7 +48,7 @@ It is also published on [getsmartable.app](https://getsmartable.app/get).
    ```
 
    "Signer #1 certificate SHA-256 digest" must read the certificate SHA-256
-   the release lists — for 3.0.1 (build 24), the value above.
+   the release lists — for 3.0.2 (build 25), the value above.
 
 Android installs an update over an existing copy only when it is signed with
 the same key, so a file signed by anyone else cannot replace the app you have.
